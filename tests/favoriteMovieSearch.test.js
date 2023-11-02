@@ -1,6 +1,8 @@
-import FavoriteMovieSearchPresenter
-  from '../src/scripts/views/pages/liked-movies/favorite-movie-search-presenter';
+import { beforeEach, describe, expect, it, jest } from '@jest/globals';
+import FavoriteMovieSearchPresenter from '../src/scripts/views/pages/liked-movies/favorite-movie-search-presenter';
 import FavoriteMovieIdb from '../src/scripts/data/favorite-movie-idb';
+import FavoriteMovieSearchView
+  from '../src/scripts/views/pages/liked-movies/favorite-movie-search-view';
 
 describe('Searching movies', () => {
   let presenter;
